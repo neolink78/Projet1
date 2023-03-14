@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(247, 179, 6);
+    background-color: ;
 }
 
 container {
@@ -10,17 +10,3 @@ container {
     padding:3rem 2rem;
     margin:2em 0;}
 
-#quiz1 { background:#fff;
-    border-radius:5px;
-    padding:2rem;
-    border:1px solid rgba(0,0,0,.2);min-width:550px;
-}
-#quiz1 img {
-    max-width:100px;
-}
-.quiz button,.quiz .quizQuestions ul.questionAnswers li,.quiz .quizResults li{border-radius:2px
-}
-@media screen and (max-width:768px)
-{
-#quiz1{min-width:unset!important}
-}
