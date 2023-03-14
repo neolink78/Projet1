@@ -1,3 +1,6 @@
 header {
     background-color: rgb(247, 179, 6);
 }
+.container{display:flex;align-items:center;justify-content:center;background:(couleur);padding:3rem 2rem;margin:2em 0;}
+#quiz1{background:(couleur);border-radius:5px;padding:2rem;border:1px solid (couleur);min-width:550px;}
+#quiz1 img{max-width:100px;}
