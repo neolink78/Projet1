@@ -1,4 +1,3 @@
-
 function dependingQuery (nber) {
     switch(nber) {
         case '1':
