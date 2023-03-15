@@ -1,12 +1,22 @@
-header {
-    background-color: ;
+body {
+    background-color: #dfc95a;
 }
 
-container {
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background:#eee;
-    padding:3rem 2rem;
-    margin:2em 0;}
 
+.result {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: #383232;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .result {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        background-color: #383232;
+        color: white;
+    }
+}
