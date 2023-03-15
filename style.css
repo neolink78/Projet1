@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    background-color: #dfc95a;
+}
 .quiz{
   
     color: white;
@@ -48,6 +50,25 @@ header{
     justify-content: space-between;
     padding-right: 17rem;
 }
+.result {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-color: #383232;
+    color: white;
+}
+footer {
+    background-color: #383232;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.3rem;
+}
 
 
 @media screen and (min-width:768px) {
@@ -55,6 +76,14 @@ header{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .result {
+        display: flex;
+        justify-content: space-around;
+        background-color: #383232;
+        color: white;
+        margin-bottom: 5rem;
+        width: 40%;
+        margin-left: 40%;    
+    }
 }
 .quiz
-
