@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -42,6 +41,7 @@ main ul li {
 
 input:hover{
     cursor: pointer;
+
 }
 
 header{
@@ -91,4 +91,3 @@ footer {
 
     }
 }
-
