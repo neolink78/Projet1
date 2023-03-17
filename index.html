@@ -11,21 +11,28 @@
 </head>
 
 <body>
-    <header>
-        <h1>Quiz du pigeon</h1>
-        <img class="logo" src="" alt="logo">
+    <div class="grilleDesLots">
+        <header>
+            <h1>Quiz du pigeon</h1>
+            <img class="logo" src="images/logo.png" alt="logo: pigeon posé sur des pieces en or">
         </header>
-    
-    <div class="Lot">
-        <h2>Liste des lots a gagner</h2>
-        <img class="boat" src="" alt="boat">
-        <ul>
-            <li>Lot 1</li>
-            <li>Lot 2</li>
-            <li>Lot 3</li>
-        </ul>
+
+
+        <div class="Lot">
+            <h2>Liste des lots a gagner</h2>
+            <div class="images_lots">
+                <img src="images/bateau.jpg" alt="bateau de croisière " , width="100" height="100">
+                <img src="images/baguette_magique.jpg" alt="baguette magique en bois" , width="100" height="100">
+                <img src="images/dictionnaire.jpg" alt="dictionnaire ouvert" , width="100" height="100">
+
+            </div>
+            <ul>
+                <li>Lot 1 : Croisiere au tour du monde pendant 30 jours</li>
+                <li>Lot 2 : La baguette d'Harry le potier</li>
+                <li>Lot 3 : Dictionnaire "Lamousse"</li>
+            </ul>
+        </div>
     </div>
-    
 
     <main>        
         <form class="questions">
@@ -116,28 +123,26 @@
                 </ul>
             </div>
            <div class="question10 quiz">
-                <h3>Question 10</h3>
+                <h3>10 - A quelle maison appartient le sorcier Gorski ? </h3>
                 <ul>
-                    <li> <input type="radio" id="qcm5" name="q10" value="a" checked> reponse1</li>
-                    <li><input type="radio" id="qcm6" name="q10" value="b"> reponse2</li>
-                    <li><input type="radio" id="qcm7" name="q10" value="c"> reponse3</li>
-                    <li><input type="radio" id="qcm8" name="q10" value="d"> reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q10" value="a" checked> Gryffondor</li>
+                    <li><input type="radio" id="qcm6" name="q10" value="b"> Serpentard</li>
+                    <li><input type="radio" id="qcm7" name="q10" value="c"> Poufsouffle</li>
+                    <li><input type="radio" id="qcm8" name="q10" value="d"> Maison Dursley</li>
                 </ul>
             </div>
             <button type="submit">Valider</button>
         </form>
 
-        <div class="image1">
 
             <img src="images/pub1.jpg" alt="publicité rachat or" , width="100" height="100">
         </div>
-        <div class="image2">
-        <img src="images/bateau.jpg" alt="croisiere bateau", width="100" height="100">
-    
-        </div>
-        <div class="image3">
-            <img src="images/jet prive.jpg" alt="jet prive", width="100" height="100">
+        <div class="image 2">
+            <img src="images/bateau.jpg" alt="croisiere bateau" , width="100" height="100">
 
+        </div>
+        <div class="image 3">
+            <img src="images/jet prive.jpg" alt="jet prive" , width="100" height="100">
 
         </div>
         <div class="image4">
@@ -178,6 +183,7 @@
     </div>
 
     </main>
+
     <div class="validation">
         <button>Valider
         </button>
@@ -185,8 +191,6 @@
             <h4>Résultat</h4>
         </div>
     </div>
-
-
 
 <footer>
     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore

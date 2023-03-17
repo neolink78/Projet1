@@ -25,6 +25,8 @@ header {
 h1 {
     display: flex;
     flex: 2;
+    align-items: center;
+    justify-content: center;
     color: white;
     font-size: 2rem;
     text-align: center;
@@ -49,7 +51,7 @@ h2 {
     text-align: center;
 }
 
-.boat {
+.images_lots {
     width: auto;
     text-align: center;
 }
@@ -205,8 +207,6 @@ button:hover {
         grid-area: image8;
     }
 
-}
-
     h1 {
         color: white;
         font-size: 2rem;
@@ -246,6 +246,21 @@ button:hover {
         margin: 0.5rem;
     }
 
+    .grilleDesLots {  
+        display: grid;
+        grid-template-columns: 1fr 1fr 0.7fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "header header lot"
+          ". . lot"
+      }
+      
+      header { grid-area: header; }
+      
+      .Lot { grid-area: lot; }
+
     header {
         justify-content: center;
         flex-direction: row-reverse;
@@ -260,7 +275,22 @@ button:hover {
     }
 
     .Lot {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            margin-left: 1rem;
+        }
+
+    ul {
         display: flex;
+        flex-direction: column;
+        margin: 1.5rem
+        }
+    
+    .images_lots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
         align-items: last baseline center;
         width: 30%;
@@ -311,7 +341,5 @@ button:hover {
       .result { grid-area: result; }
       
       .pub { grid-area: pub; }
-      
-    
 
 }
