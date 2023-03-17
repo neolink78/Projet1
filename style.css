@@ -320,9 +320,7 @@ button:hover {
       
       .result { grid-area: result; }
       
-      .pub { grid-area: pub; }
-      
-    
+      .pub { grid-area: pub; 
+    }
 
-}
 
