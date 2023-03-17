@@ -213,8 +213,6 @@ button:hover {
         grid-area: image8;
     }
 
-}
-
     h1 {
         color: white;
         font-size: 2rem;
@@ -254,7 +252,6 @@ button:hover {
         margin: 0.5rem;
     }
 
-<<<<<<< HEAD
     .grilleDesLots {  
         display: grid;
         grid-template-columns: 1fr 1fr 0.7fr;
@@ -269,7 +266,7 @@ button:hover {
       header { grid-area: header; }
       
       .Lot { grid-area: lot; }
-=======
+
     header {
         justify-content: center;
         flex-direction: row-reverse;
@@ -282,7 +279,6 @@ button:hover {
         width: auto;
 
     }
->>>>>>> f34867919962750a202cfaad5b60f4889128410c
 
     .Lot {
             display: flex;
@@ -294,7 +290,6 @@ button:hover {
     ul {
         display: flex;
         flex-direction: column;
-<<<<<<< HEAD
         margin: 1.5rem
         }
     
@@ -303,15 +298,11 @@ button:hover {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-
-    }
-=======
         align-items: last baseline center;
         width: 30%;
         background-color: var(--primary-color);
         color: white;
         font-size: 1rem; }
->>>>>>> f34867919962750a202cfaad5b60f4889128410c
 
 
     .result {
@@ -360,7 +351,5 @@ button:hover {
       .result { grid-area: result; }
       
       .pub { grid-area: pub; }
-      
-    
 
 }
