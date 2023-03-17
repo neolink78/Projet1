@@ -11,122 +11,132 @@
 </head>
 
 <body>
-    <header>
-        <h1>Quiz du pigeon</h1>
-        <img class="logo" src="" alt="logo">
+    <div class="grilleDesLots">
+        <header>
+            <h1>Quiz du pigeon</h1>
+            <img class="logo" src="images/logo.png" alt="logo: pigeon posé sur des pieces en or">
         </header>
-    
-    <div class="Lot">
-        <h2>Liste des lots a gagner</h2>
-        <img class="boat" src="images/bateau.jpg" alt="boat">
-        <img class="jet" src="images/jet prive.jpg" alt="jet">
-        <img class="gold" src="images/pub1.jpeg" alt="gold">
-        <ul>
-            <li>Lot 1</li>
-            <li>Lot 2</li>
-            <li>Lot 3</li>
-        </ul>
+
+
+        <div class="Lot">
+            <h2>Liste des lots a gagner</h2>
+            <div class="images_lots">
+                <img src="images/bateau.jpg" alt="bateau de croisière " , width="100" height="100">
+                <img src="images/baguette_magique.jpg" alt="baguette magique en bois" , width="100" height="100">
+                <img src="images/dictionnaire.jpg" alt="dictionnaire ouvert" , width="100" height="100">
+
+            </div>
+            <ul>
+                <li>Lot 1 : Croisiere au tour du monde pendant 30 jours</li>
+                <li>Lot 2 : La baguette d'Harry le potier</li>
+                <li>Lot 3 : Dictionnaire "Lamousse"</li>
+            </ul>
+        </div>
     </div>
-    
 
-    <main>
+    <main>        
+        <form class="questions">
 
-        <div class="questions">
             <div class="question1 quiz">
                 <h3>1 - Combien de temps a duré la guerre de cent ans ?</h3>
                 <ul>
-                    <li> <input type="checkbox" id="1"> 116 ans</li>
-                    <li> <input type="checkbox" id="2"> 100 ans</li>
-                    <li> <input type="checkbox" id="3"> 101 ans</li>
-                    <li> <input type="checkbox" id="4"> 120 ans</li>
+                    <li> <input type="radio" id="qcm1" name="q1" value="a" checked> reponse1</li>
+                    <li> <input type="radio" id="qcm2" name="q1" value="b"> reponse2</li>
+                    <li> <input type="radio" id="qcm3" name="q1" value="c"> reponse3</li>
+                    <li> <input type="radio" id="qcm4" name="q1" value="d"> reponse4</li>
+
                 </ul>
             </div>
-                <img src="images/pub1.jpg" alt="coca" width="100" height="100">
+            <img src="images/pub1.jpg" alt="coca">
 
             <div class="question2 quiz">
                 <h3>2 - De quel pays provienent les groseilles chinoises ?</h3>
                 <ul>
-                    <li> <input type="checkbox" id="5"> Maroc</li>
-                    <li><input type="checkbox" id="6"> Chine</li>
-                    <li><input type="checkbox" id="7"> Nouvelle-Zélande</li>
-                    <li><input type="checkbox" id="8"> Azerbaïdjan</li>
+                    <li> <input type="radio" id="qcm5" name="q2" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q2" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q2" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q2" value="d"> reponse4</li>
                 </ul>
             </div>
             <img src="images/pub2.jpg" alt="cafe">
+
             <div class="question3 quiz">
                 <h3>Question 3</h3>
                 <ul>
-                    <li><input type="checkbox" id="9"> reponse1</li>
-                    <li><input type="checkbox" id="10"> reponse2</li>
-                    <li><input type="checkbox" id="11"> reponse3</li>
-                    <li><input type="checkbox" id="12"> reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q3" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q3" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q3" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q3" value="d"> reponse4</li>
                 </ul>
             </div>
-            <img src="images/pub3.jpg.png" alt="annonce">
-            <div class="question4 quiz">
+            <img src="images/pub3.jpg.png" alt="evenement">
+             <div class="question4 quiz">
                 <h3>Question 4</h3>
                 <ul>
-                    <li><input type="checkbox" id="13"> reponse1</li>
-                    <li><input type="checkbox" id="14"> reponse2</li>
-                    <li><input type="checkbox" id="15"> reponse3</li>
-                    <li><input type="checkbox" id="16"> reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q4" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q4" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q4" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q4" value="d"> reponse4</li>
                 </ul>
             </div>
             <img src="images/oasis.jpg" alt="oasis">
             <div class="question5 quiz">
                 <h3>Question 5</h3>
                 <ul>
-                    <li><input type="checkbox" id="17"> reponse1</li>
-                    <li><input type="checkbox" id="18"> reponse2</li>
-                    <li><input type="checkbox" id="19"> reponse3</li>
-                    <li><input type="checkbox" id="20">reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q5" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q5" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q5" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q5" value="d"> reponse4</li>
                 </ul>
             </div>
             <div class="question6 quiz">
                 <h3>Question 6</h3>
                 <ul>
-                    <li><input type="checkbox" id="21">reponse1</li>
-                    <li><input type="checkbox" id="22">reponse2</li>
-                    <li><input type="checkbox" id="23">reponse3</li>
-                    <li><input type="checkbox" id="24">reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q6" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q6" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q6" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q6" value="d"> reponse4</li>
                 </ul>
             </div>
             <div class="question7 quiz">
                 <h3>Question 7</h3>
                 <ul>
-                    <li><input type="checkbox" id="25">reponse1</li>
-                    <li><input type="checkbox" id="26">reponse2</li>
-                    <li><input type="checkbox" id="27">reponse3</li>
-                    <li><input type="checkbox" id="28">reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q7" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q7" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q7" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q7" value="d"> reponse4</li>
                 </ul>
             </div>
-            <div class="question8 quiz">
+           <div class="question8 quiz">
                 <h3>Question 8</h3>
                 <ul>
-                    <li><input type="checkbox" id="29">reponse1</li>
-                    <li><input type="checkbox" id="30">reponse2</li>
-                    <li><input type="checkbox" id="31">reponse3</li>
-                    <li><input type="checkbox" id="32">reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q8" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q8" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q8" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q8" value="d"> reponse4</li>
+
                 </ul>
             </div>
             <div class="question9 quiz">
                 <h3>Question 9</h3>
                 <ul>
-                    <li><input type="checkbox" id="33">reponse1</li>
-                    <li><input type="checkbox" id="34">reponse2</li>
-                    <li><input type="checkbox" id="35">reponse3</li>
-                    <li><input type="checkbox" id="36">reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q9" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q9" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q9" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q9" value="d"> reponse4</li>
                 </ul>
             </div>
-            <div class="question10 quiz">
-                <h3>10 - A quel maison appartient le sorcier Gorsky ?</h3>
+           <div class="question10 quiz">
+                <h3>10 - A quelle maison appartient le sorcier Gorski ? </h3>
                 <ul>
-                    <li><input type="checkbox" id="37"> Gryffondor</li>
-                    <li><input type="checkbox" id="38"> Serpentard</li>
-                    <li><input type="checkbox" id="39"> Poufsouffle</li>
-                    <li><input type="checkbox" id="40"> Maison Dursley</li>
+                    <li> <input type="radio" id="qcm5" name="q10" value="a" checked> Gryffondor</li>
+                    <li><input type="radio" id="qcm6" name="q10" value="b"> Serpentard</li>
+                    <li><input type="radio" id="qcm7" name="q10" value="c"> Poufsouffle</li>
+                    <li><input type="radio" id="qcm8" name="q10" value="d"> Maison Dursley</li>
                 </ul>
-        </div>
+            </div>
+            <button type="submit">Valider</button>
+        </form>
         <div class="image4">
             <img class="pub10" src="" alt="">
             <img class="pub11" src="" alt="">
@@ -165,6 +175,7 @@
     </div>
 
     </main>
+
     <div class="validation">
         <button>Valider
         </button>
@@ -173,10 +184,6 @@
         </div>
     </div>
 
-
-
-
-</body>
 <footer>
     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -191,5 +198,8 @@
     </div>
 
 </footer>
+    <script src="script.js"></script>
+</body>
+
 
 </html>
