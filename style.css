@@ -1,3 +1,7 @@
+:root{
+    --primary-color: #383232;
+    --secondary-color:#DFC95A;
+}
 * {
     margin: 0;
     padding: 0;
@@ -7,16 +11,20 @@
 }
 
 body {
-    background-color: #DFC95A;
+    background-color:var(--secondary-color);
 }
 
 header {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-    background-color: #383232;
+    padding-right: 20%;
+    background-color: var(--primary-color);
     margin-bottom: 1rem;
 }
+
+
+
 
 
 h1 {
@@ -56,16 +64,17 @@ ul {
 }
 
 
+
 .quiz {
 
     color: white;
-    margin: 3re;
-    background-color: #383232;
+    margin: 3rem;
+    background-color: var(--primary-color);
     margin-top: 5rem;
     margin-right: 1rem;
     margin-left: 1rem;
     padding: 1rem;
-
+    border-radius: 5px;
 
 }
 
@@ -81,6 +90,7 @@ p {
     padding: 1rem;
     border: 5px solid white;
     margin-bottom: 2.5rem;
+    border-radius: 5px;
 
 }
 
@@ -109,7 +119,7 @@ input:hover {
 }
 
 footer {
-    background-color: #383232;
+    background-color: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,12 +127,106 @@ footer {
     text-align: center;
     padding: 0.5rem;
     font-size: 0.3rem;
-    margin: 0.5rem;
 }
 
 
 
 @media screen and (min-width:768px) {
+    
+    .questions {
+        display: grid;
+        grid-template-columns: 1fr 1fr 0.7fr;
+       
+
+        grid-template-areas:
+         "question1 question2 image4"
+         "question3 question4 image5"
+         "question5 question6 image6"
+         "question7 question8 image7"
+         "question9 question10 image8";
+    }
+
+    .question1 {
+        grid-area: question1;
+    }
+    .question2 {
+        grid-area: question2;
+    }
+    .question3 {
+        grid-area: question3;
+    }
+    .question4 {
+        grid-area: question4;
+    }
+    .question5 {
+        grid-area: question5;
+    }
+    .question6 {
+        grid-area: question6;
+    }
+    .question7 {
+        grid-area: question7;
+    }
+    .question8 {
+        grid-area: question8;
+    }
+    .question9 {
+        grid-area: question9;
+    }
+    .question10 {
+        grid-area: question10;
+    }
+    .image4 {
+        grid-area: image4;
+    }
+    .image5 {
+        grid-area: image5;
+    }
+    .image6 {
+        grid-area: image6;
+    }
+    .image7 {
+        grid-area: image7;
+    }
+    .image8 {
+        grid-area: image8;
+    }
+
+}
+
+    h1 {
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        margin: 0.5rem;
+        width: 30%;
+    }
+
+    .Lot {
+        background-color: var(--primary-color);
+        color: white;
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .boat {
+        width: auto;
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: circle;
+    }
 
 
     body {
@@ -131,6 +235,9 @@ footer {
 
     header {
         justify-content: center;
+        flex-direction: row-reverse;
+        background-color: var(--primary-color);
+        margin-bottom: 1rem;
         width: 70%;
     }
 
@@ -144,24 +251,20 @@ footer {
         flex-direction: column;
         align-items: last baseline center;
         width: 30%;
-        background-color: #383232;
+        background-color: var(--primary-color);
         color: white;
-        font-size: 1rem;
-    }
+        font-size: 1rem; }
 
-    .questions {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+        .result {
+            display: flex;
+            justify-content: space-around;
+            background-color: var(--primary-color);
+            color: white;
+            margin-bottom: 5rem;
+            width: 40%;
+            margin-left: 40%;
 
 
-    .result {
-        display: flex;
-        justify-content: space-around;
-        background-color: #383232;
-        color: white;
-        margin-bottom: 5rem;
-        width: 40%;
-        margin-left: 40%;
-    }
-}
+        }}
+
+
