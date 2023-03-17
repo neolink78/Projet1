@@ -16,13 +16,54 @@ body {
 
 header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row-reverse;
     padding-right: 20%;
     background-color: var(--primary-color);
     margin-bottom: 1rem;
 }
+
+
+
+
+
+h1 {
+    display: flex;
+    flex: 2;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 0.5rem;
+    width: 30%;
+}
+
+.Lot {
+    background-color: #383232;
+    color: white;
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.boat {
+    width: auto;
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+
 
 .quiz {
 
@@ -35,9 +76,14 @@ header {
     padding: 1rem;
     border-radius: 5px;
 
-
 }
 
+p {
+    border: 5px solid white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+}
 
 .quiz h3 {
 
@@ -53,7 +99,6 @@ main ul li {
     margin-left: 1rem;
     list-style-type: none;
     padding-bottom: 2rem;
-    box-shadow: ;
 
 }
 
@@ -62,13 +107,6 @@ input:hover {
 
 }
 
-header {
-    display: flex;
-    background-color: var(--primary-color);
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    padding-right: 17rem;
-}
 
 .result {
     display: flex;
@@ -190,18 +228,22 @@ footer {
         list-style-type: circle;
     }
 
+
     body {
         margin: 0.5rem;
     }
 
     header {
-        display: flex;
-        align-items: center;
         justify-content: center;
         flex-direction: row-reverse;
         background-color: var(--primary-color);
         margin-bottom: 1rem;
         width: 70%;
+    }
+
+    h1 {
+        width: auto;
+
     }
 
     .Lot {
@@ -224,3 +266,5 @@ footer {
 
 
         }}
+
+
