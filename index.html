@@ -7,186 +7,208 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Quiz</title>
-    
+
 </head>
 
 <body>
-    <header>
-        <h1>Quiz du pigeon</h1>
-        <img class="logo" src="" alt="logo">
-    </header>
-    
-    <div class="Lot">
-        <h2>Liste des lots a gagner</h2>
-        <img class="boat" src="" alt="boat">
-        <ul>
-            <li>Lot 1</li>
-            <li>Lot 2</li>
-            <li>Lot 3</li>
-        </ul>
+    <div class="grilleDesLots">
+        <header>
+            <h1>Quiz du pigeon</h1>
+            <img class="logo" src="images/logo.png" alt="logo: pigeon posé sur des pieces en or">
+        </header>
+
+
+        <div class="Lot">
+            <h2>Liste des lots a gagner</h2>
+            <div class="images_lots">
+                <img src="images/bateau.jpg" alt="bateau de croisière " , width="100" height="100">
+                <img src="images/baguette_magique.jpg" alt="baguette magique en bois" , width="100" height="100">
+                <img src="images/dictionnaire.jpg" alt="dictionnaire ouvert" , width="100" height="100">
+
+            </div>
+            <ul>
+                <li>Lot 1 : Croisiere au tour du monde pendant 30 jours</li>
+                <li>Lot 2 : La baguette d'Harry le potier</li>
+                <li>Lot 3 : Dictionnaire "Lamousse"</li>
+            </ul>
+        </div>
     </div>
-    
-    <main>
-        
-        <div class="questions">
+
+    <main>        
+        <form class="questions">
+
             <div class="question1 quiz">
-                <h3>Question 1</h3>
+                <h3>1 - Combien de temps a duré la guerre de cent ans ?</h3>
                 <ul>
-                    <li> <input type="checkbox" id="qcm"> reponse1</li>
-                    <li> <input type="checkbox" id="qcm"> reponse2</li>
-                    <li> <input type="checkbox" id="qcm"> reponse3</li>
-                    <li> <input type="checkbox" id="qcm"> reponse4</li>
+                    <li> <input type="radio" id="qcm1" name="q1" value="a" checked> reponse1</li>
+                    <li> <input type="radio" id="qcm2" name="q1" value="b"> reponse2</li>
+                    <li> <input type="radio" id="qcm3" name="q1" value="c"> reponse3</li>
+                    <li> <input type="radio" id="qcm4" name="q1" value="d"> reponse4</li>
+
                 </ul>
             </div>
-        
-    
+
+
             <div class="question2 quiz">
-                <h3>Question 2</h3>
+                <h3>2 - De quel pays provienent les groseilles chinoises ?</h3>
                 <ul>
-                    <li> <input type="checkbox" id="qcm"> reponse1</li>
-                    <li><input type="checkbox" id="qcm"> reponse2</li>
-                    <li><input type="checkbox" id="qcm"> reponse3</li>
-                    <li><input type="checkbox" id="qcm"> reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q2" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q2" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q2" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q2" value="d"> reponse4</li>
                 </ul>
             </div>
             <div class="question3 quiz">
                 <h3>Question 3</h3>
                 <ul>
-                    <li><input type="checkbox" id="qcm"> reponse1</li>
-                    <li><input type="checkbox" id="qcm"> reponse2</li>
-                    <li><input type="checkbox" id="qcm"> reponse3</li>
-                    <li><input type="checkbox" id="qcm"> reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q3" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q3" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q3" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q3" value="d"> reponse4</li>
                 </ul>
             </div>
-            <div class="question4 quiz">
+             <div class="question4 quiz">
                 <h3>Question 4</h3>
                 <ul>
-                    <li><input type="checkbox" id="qcm"> reponse1</li>
-                    <li><input type="checkbox" id="qcm"> reponse2</li>
-                    <li><input type="checkbox" id="qcm"> reponse3</li>
-                    <li><input type="checkbox" id="qcm"> reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q4" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q4" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q4" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q4" value="d"> reponse4</li>
                 </ul>
             </div>
             <div class="question5 quiz">
                 <h3>Question 5</h3>
                 <ul>
-                    <li><input type="checkbox" id="qcm"> reponse1</li>
-                    <li><input type="checkbox" id="qcm"> reponse2</li>
-                    <li><input type="checkbox" id="qcm"> reponse3</li>
-                    <li><input type="checkbox" id="qcm">reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q5" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q5" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q5" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q5" value="d"> reponse4</li>
                 </ul>
             </div>
             <div class="question6 quiz">
                 <h3>Question 6</h3>
                 <ul>
-                    <li><input type="checkbox" id="qcm">reponse1</li>
-                    <li><input type="checkbox" id="qcm">reponse2</li>
-                    <li><input type="checkbox" id="qcm">reponse3</li>
-                    <li><input type="checkbox" id="qcm">reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q6" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q6" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q6" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q6" value="d"> reponse4</li>
                 </ul>
             </div>
             <div class="question7 quiz">
                 <h3>Question 7</h3>
                 <ul>
-                    <li><input type="checkbox" id="qcm">reponse1</li>
-                    <li><input type="checkbox" id="qcm">reponse2</li>
-                    <li><input type="checkbox" id="qcm">reponse3</li>
-                    <li><input type="checkbox" id="qcm">reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q7" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q7" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q7" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q7" value="d"> reponse4</li>
                 </ul>
             </div>
-            <div class="question8 quiz">
+           <div class="question8 quiz">
                 <h3>Question 8</h3>
                 <ul>
-                    <li><input type="checkbox" id="qcm">reponse1</li>
-                    <li><input type="checkbox" id="qcm">reponse2</li>
-                    <li><input type="checkbox" id="qcm">reponse3</li>
-                    <li><input type="checkbox" id="qcm">reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q8" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q8" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q8" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q8" value="d"> reponse4</li>
+
                 </ul>
             </div>
             <div class="question9 quiz">
                 <h3>Question 9</h3>
                 <ul>
-                    <li><input type="checkbox" id="qcm">reponse1</li>
-                    <li><input type="checkbox" id="qcm">reponse2</li>
-                    <li><input type="checkbox" id="qcm">reponse3</li>
-                    <li><input type="checkbox" id="qcm">reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q9" value="a" checked> reponse1</li>
+                    <li><input type="radio" id="qcm6" name="q9" value="b"> reponse2</li>
+                    <li><input type="radio" id="qcm7" name="q9" value="c"> reponse3</li>
+                    <li><input type="radio" id="qcm8" name="q9" value="d"> reponse4</li>
                 </ul>
             </div>
-            <div class="question10 quiz">
-                <h3>Question 10</h3>
+           <div class="question10 quiz">
+                <h3>10 - A quelle maison appartient le sorcier Gorski ? </h3>
                 <ul>
-                    <li><input type="checkbox" id="qcm">reponse1</li>
-                    <li><input type="checkbox" id="qcm">reponse2</li>
-                    <li><input type="checkbox" id="qcm">reponse3</li>
-                    <li><input type="checkbox" id="qcm">reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q10" value="a" checked> Gryffondor</li>
+                    <li><input type="radio" id="qcm6" name="q10" value="b"> Serpentard</li>
+                    <li><input type="radio" id="qcm7" name="q10" value="c"> Poufsouffle</li>
+                    <li><input type="radio" id="qcm8" name="q10" value="d"> Maison Dursley</li>
                 </ul>
             </div>
-        </div>
-        <div class="image 1">
+            
+    
 
-            <img src="images/pub1.jpg" alt="publicité rachat or", width="100" height="100">
+
+            <img src="images/pub1.jpg" alt="publicité rachat or" , width="100" height="100">
         </div>
         <div class="image 2">
-            <img src="images/bateau.jpg" alt="croisiere bateau", width="100" height="100">
-    
-        </div>
-        <div class="image 3">
-            <img src="images/jet prive.jpg" alt="jet prive", width="100" height="100">
+            <img src="images/bateau.jpg" alt="croisiere bateau" , width="100" height="100">
 
         </div>
-        <div class="image 4">
+        <div class="image 3">
+            <img src="images/jet prive.jpg" alt="jet prive" , width="100" height="100">
+
+        </div>
+        <div class="image4">
             <img class="pub10" src="" alt="">
             <img class="pub11" src="" alt="">
             <img class="pub12" src="" alt="">
         </div>
-        <div class="image 5">
+        <div class="image5">
             <img class="pub13" src="" alt="">
             <img class="pub14" src="" alt="">
             <img class="pub15" src="" alt="">
         </div>
-        <div class="image 6">
+        <div class="image6">
             <img class="pub16" src="" alt="">
             <img class="pub17" src="" alt="">
             <img class="pub18" src="" alt="">
         </div>
-        <div class="image 7">
+        <div class="image7">
             <img class="pub19" src="" alt="">
             <img class="pub20" src="" alt="">
             <img class="pub21" src="" alt="">
         </div>
-        <div class="image 8">
+        <div class="image8">
             <img class="pub22" src="" alt="">
             <img class="pub23" src="" alt="">
             <img class="pub24" src="" alt="">
         </div>
-        <div class="image 9">
+        <div class="image9">
             <img class="pub25" src="" alt="">
             <img class="pub26" src="" alt="">
             <img class="pub27" src="" alt="">
         </div>
-        <div class="image 10">
+        <div class="image10">
             <img class="pub28" src="" alt="">
             <img class="pub29" src="" alt="">
             <img class="pub30" src="" alt="">
         </div>
-
-
-    </main>
-    <button>Valider
-    </button>
-    <div class="result">
-     <h4>Résultat</h4>
     </div>
 
+    </main>
 
+    <div class="validation">
+        <button type = "submit">Valider
+        </button>
+        <div class="result">
+            <h4>Résultat</h4>
+        </div>
+    </div>
+</form>
 
-
-</body>
 <footer>
-    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
     </div>
 
 </footer>
+    <script src="script.js"></script>
+</body>
+
 
 </html>
