@@ -22,11 +22,6 @@ header {
     background-color: var(--primary-color);
     margin-bottom: 1rem;
 }
-
-
-
-
-
 h1 {
     display: flex;
     flex: 2;
@@ -77,7 +72,6 @@ ul {
     margin-left: 1rem;
     padding: 1rem;
     border-radius: 5px;
-
 }
 
 p {
@@ -307,15 +301,11 @@ button:hover {
 
     .result {
         display: flex;
-        justify-content: space-around;
         background-color: #383232;
         color: white;
         margin-bottom: 5rem;
         width: 80%;
         height: 50%;
-           
-
-
     }
 
     button {
