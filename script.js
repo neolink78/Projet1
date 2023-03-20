@@ -66,3 +66,5 @@ form.addEventListener("submit", function (e) {
         // permet de vider le tableau des réponses de l'utilisateur
         answersUser = [];
 });
+
+
