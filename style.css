@@ -197,20 +197,32 @@ button:hover {
     }
     .image4 {
         grid-area: image4;
+
+
     }
     .image5 {
         grid-area: image5;
+        
     }
     .image6 {
         grid-area: image6;
     }
+    
     .image7 {
         grid-area: image7;
     }
+
     .image8 {
         grid-area: image8;
     }
 
+    .image9{
+        grid-area: image9 ;
+    }
+
+    .imagine10{
+        grid-area: image10;
+    }
 }
 
     h1 {
