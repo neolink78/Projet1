@@ -1,27 +1,29 @@
-:root{
+:root {
     --primary-color: #383232;
-    --secondary-color:#DFC95A;
+    --secondary-color: #DFC95A;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     line-height: 1.5;
-    font-family: Verdana, sans-serif;
+    font-family: 'Roboto', Verdana, sans-serif;
 }
 
 body {
-    background-color:var(--secondary-color);
+    background-color: var(--secondary-color);
 }
 
 header {
     display: flex;
-    justify-content: center;
     flex-direction: row-reverse;
-    padding-right: 20%;
     background-color: var(--primary-color);
     margin-bottom: 1rem;
+    border-radius: 10px;
+
 }
+
 h1 {
     display: flex;
     flex: 2;
@@ -29,7 +31,6 @@ h1 {
     justify-content: center;
     color: white;
     font-size: 2rem;
-    text-align: center;
 }
 
 .logo {
@@ -38,29 +39,44 @@ h1 {
     align-items: baseline;
     margin: 0.5rem;
     width: 30%;
+    border-radius: 50%;
 }
 
 .Lot {
+    align-items: center;
+    justify-content: center;
     background-color: #383232;
     color: white;
     font-size: 1rem;
+    border-radius: 10px;
 }
 
 h2 {
     font-size: 1.5rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .images_lots {
-    width: auto;
+    display: flex;
+    justify-content: space-around;
     text-align: center;
+}
+
+.boat {
+    width: 30%;
+}
+.baguette {
+    width: 30%;
+}
+
+.dico {
+    width: 30%;
 }
 
 ul {
     list-style-type: circle;
 }
-
-
 
 .quiz {
 
@@ -95,7 +111,6 @@ main ul li {
     margin-left: 1rem;
     list-style-type: none;
     padding-bottom: 2rem;
-
 }
 
 input:hover {
@@ -124,6 +139,7 @@ footer {
     padding: 0.5rem;
     font-size: 0.3rem;
 }
+
 button {
     display: block;
     margin-top: auto;
@@ -145,159 +161,139 @@ button:hover {
 
 
 
-
 @media screen and (min-width:768px) {
+
     
+/*header and batch list side by side*/
+    .grilleDesLots {
+        display: grid;
+        grid-template-columns: 1fr 1fr 0.7fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "header header lot"
+            ". . lot"
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    .Lot {
+        grid-area: lot;
+    }
+
+/*style header et batch list*/
+
+    body {
+            margin: 0.5rem;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        h2 {
+            font-size: 3rem;
+        }
+        
+    .Lot {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 1rem;
+        max-width: 100%;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    .images_lots {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-direction: column;
+        max-height: 100%;
+    }
+
     .questions {
         display: grid;
         grid-template-columns: 1fr 1fr 0.7fr;
         margin-top: -20rem;
        
 
+
         grid-template-areas:
-         "question1 question2 image4"
-         "question3 question4 image5"
-         "question5 question6 image6"
-         "question7 question8 image7"
-         "question9 question10 image8";
+            "question1 question2 image4"
+            "question3 question4 image5"
+            "question5 question6 image6"
+            "question7 question8 image7"
+            "question9 question10 image8";
     }
 
     .question1 {
         grid-area: question1;
     }
+
     .question2 {
         grid-area: question2;
     }
+
     .question3 {
         grid-area: question3;
     }
+
     .question4 {
         grid-area: question4;
     }
+
     .question5 {
         grid-area: question5;
     }
+
     .question6 {
         grid-area: question6;
     }
+
     .question7 {
         grid-area: question7;
     }
+
     .question8 {
         grid-area: question8;
     }
+
     .question9 {
         grid-area: question9;
     }
+
     .question10 {
         grid-area: question10;
     }
+
     .image4 {
         grid-area: image4;
     }
+
     .image5 {
         grid-area: image5;
     }
+
     .image6 {
         grid-area: image6;
     }
+
     .image7 {
         grid-area: image7;
     }
+
     .image8 {
         grid-area: image8;
     }
 
-    h1 {
-        color: white;
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    .logo {
-        display: flex;
-        flex-direction: row;
-        align-items: baseline;
-        margin: 0.5rem;
-        width: 30%;
-    }
-
-    .Lot {
-        background-color: var(--primary-color);
-        color: white;
-        font-size: 1rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-    .boat {
-        width: auto;
-        text-align: center;
-    }
-
-    ul {
-        list-style-type: circle;
-    }
-
-
-    body {
-        margin: 0.5rem;
-    }
-
-    .grilleDesLots {  
-        display: grid;
-        grid-template-columns: 1fr 1fr 0.7fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-          "header header lot"
-          ". . lot"
-      }
-      
-      header { grid-area: header; }
-      
-      .Lot { grid-area: lot; }
-
-    header {
-        justify-content: center;
-        flex-direction: row-reverse;
-        background-color: var(--primary-color);
-        margin-bottom: 1rem;
-        width: 70%;
-    }
-
-    h1 {
-        width: auto;
-
-    }
-
-    .Lot {
-            display: flex;
-            flex-direction: column;
-            width: auto;
-            margin-left: 1rem;
-        }
-
-    ul {
-        display: flex;
-        flex-direction: column;
-        margin: 1.5rem
-        }
-    
-    .images_lots {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        align-items: last baseline center;
-        width: 30%;
-        background-color: var(--primary-color);
-        color: white;
-        font-size: 1rem; }
 
 
     .result {
@@ -323,10 +319,13 @@ button:hover {
         font-weight: bolder;
         text-transform: uppercase;
     }
+
     button:hover {
         background-color: green;
     }
-    .validation {  display: grid;
+
+    .validation {
+        display: grid;
         grid-template-columns: 1.2fr 1.1fr 0.7fr;
         grid-template-rows: 1fr;
         grid-auto-columns: 1fr;
@@ -334,13 +333,19 @@ button:hover {
         grid-auto-flow: row;
         justify-items: stretch;
         grid-template-areas:
-          "button result pub";
-      }
-      
-      .button { grid-area: button; }
-      
-      .result { grid-area: result; }
-      
-      .pub { grid-area: pub; }
+            "button result pub";
+    }
+
+    .button {
+        grid-area: button;
+    }
+
+    .result {
+        grid-area: result;
+    }
+
+    .pub {
+        grid-area: pub;
+    }
 
 }
