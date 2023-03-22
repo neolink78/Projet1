@@ -32,7 +32,7 @@ function dependingQuery (nber) {
 // c => reponse3
 // d => reponse4
 
-const goodAnswers = ['a', 'c', 'c', 'd', 'b', 'b', 'c', 'b', 'c', 'd' ];
+const goodAnswers = ['a', 'c', 'c', 'd', 'b', 'b', 'c', 'd', 'c', 'd' ];
 let answersUser = [];
 const form = document.querySelector('.questions');
 const writtenAnswer = document.querySelector('h4');
