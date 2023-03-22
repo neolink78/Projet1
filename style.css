@@ -193,19 +193,75 @@ button:hover {
     }
     .image4 {
         grid-area: image4;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+        width: 100%;
+        height: 100%;
     }
+    .image4 img {
+       width: 100%; 
+        height: auto;
+    }
+
     .image5 {
         grid-area: image5;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+        width: 100%;
+        height: 100%;  
     }
+    .image5 img {
+        width: 100%; 
+         height: auto;
+     }
+
+
     .image6 {
         grid-area: image6;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+        width: 100%;
+        height: 100%;
     }
+    .image6 img {
+        width: 100%; 
+         height: auto;
+     }
+
     .image7 {
         grid-area: image7;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+        width: 100%;
+        height: 100%;
     }
+    .image7 img {
+        width: 100%; 
+         height: auto;
+     }
+
     .image8 {
         grid-area: image8;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+        width: 100%;
+        height: 100%;
+   
     }
+    .image8 img {
+        width: 100%; 
+         height: auto;
+     }
 
     h1 {
         color: white;
