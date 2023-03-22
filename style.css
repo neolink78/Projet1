@@ -80,17 +80,6 @@ h2 {
     padding-bottom: 10px;
 }
 
-.boat {
-    width: 30%;
-}
-
-.baguette {
-    width: 30%;
-}
-
-.dico {
-    width: 30%;
-}
 
 ul {
     list-style-type: circle;
@@ -202,6 +191,7 @@ input:hover {
     height: 10rem;
 }
 
+
 footer {
     background-color: var(--primary-color);
     display: flex;
@@ -277,7 +267,10 @@ button:hover {
         margin-left: 1rem;
         margin-right: 1rem;
     }
-        
+    #qcm7 {
+        text-align: justify;
+    }
+
     .Lot {
         display: flex;
         flex-direction: column;
@@ -368,17 +361,13 @@ button:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center ;
-        
-        
     }
-
 
     .image4 img {
         width:100%; 
         height: 180px;
-        padding-bottom: 1rem;
+       
     }
-
 
     .image5 {
         grid-area: image5;
@@ -389,11 +378,48 @@ button:hover {
        
         
     }
+    .pub13 {
+        border: 8px ridge var(--primary-color);
+        border-radius: 5px;
+        box-shadow: 4px 4px 4px 4px ;
+        
+    }
 
+    .pub13 {
+        border: 8px ridge var(--primary-color);
+        border-radius: 5px;
+        box-shadow: 4px 4px 4px 0px ;
+        margin-bottom: 1rem;
+    }
+   
+    .pub18 {
+        border: 8px ridge var(--primary-color);
+        border-radius: 5px;
+        box-shadow: 4px 4px 4px 0px ;
+        margin-bottom: 1rem;
+    }
+    
+    .pub22 {
+        border: 8px ridge var(--primary-color);
+        border-radius: 5px;
+        box-shadow: 4px 4px 4px 0px ;
+        margin-bottom: 1rem;
+    }
+    
+    .pub19 {
+        border: 8px ridge var(--primary-color);
+        border-radius: 5px;
+        box-shadow: 4px 4px 4px 0px ;
+        margin-bottom: 1rem;
+    }
+    
     .image5 img {
         width:100%; 
-        height: 165px;
-        padding-bottom: 1rem;
+        height: 80%;
+       
+     }
+     .pub14,.pub15,.pub16,.pub17,.pub20,.pub21,.pub23,.pub24 {
+        display: none;
      }
 
 
@@ -408,11 +434,9 @@ button:hover {
 
     .image6 img {
         width:100%; 
-        height: 165px;
-        padding-bottom: 1rem;
+        height: 80%;
+        
      }
-
-
 
     .image7 {
         grid-area: image7;
@@ -425,8 +449,8 @@ button:hover {
 
     .image7 img {
         width:100%; 
-        height: 165px;
-        padding-bottom: 1rem;
+        height: 80%;
+        
      }
 
 
@@ -441,8 +465,7 @@ button:hover {
     }
     .image8 img {
         width:100%; 
-         height: 180px;
-         padding-bottom: 1rem;
+         height: 80%;
      }
 
 
