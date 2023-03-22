@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: var(--secondary-color);
+    background-color:#DFC95A;
 }
 
 header {
@@ -62,6 +62,13 @@ h2 {
     display: flex;
     justify-content: space-around;
     text-align: center;
+
+}
+.images_lots img {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
 }
 
 .boat {
@@ -78,6 +85,7 @@ h2 {
 
 ul {
     list-style-type: circle;
+    margin-left: 2rem;
 }
 
 .quiz {
@@ -195,10 +203,16 @@ button:hover {
         font-size: 4rem;
     }
 
-    h2 {
-        font-size: 3rem;
+    h1 {
+        font-size: 4rem;
     }
 
+    h2 {
+        font-size: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+        
     .Lot {
         display: flex;
         flex-direction: column;
@@ -207,10 +221,15 @@ button:hover {
         max-width: 100%;
     }
 
+    .images_lots img {
+        /*width: 100%;*/
+        height: auto;
+        display: block;
+    }
+
     ul {
         display: flex;
         flex-direction: column;
-        margin: 1.5rem;
         font-size: 1.5rem;
     }
 
@@ -230,7 +249,7 @@ button:hover {
 
 
         grid-template-areas:
-            "question1 question2 image4"
+            "question1 question2 ."
             "question3 question4 image5"
             "question5 question6 image6"
             "question7 question8 image7"
