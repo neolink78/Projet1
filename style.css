@@ -1,6 +1,6 @@
 :root{
     --primary-color: #383232;
-    --secondary-color:#DFC95A;
+    --secondary-color:#F0DDC5;
 }
 * {
     margin: 0;
@@ -71,7 +71,7 @@ ul {
     margin-right: 1rem;
     margin-left: 1rem;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 p {
@@ -86,7 +86,7 @@ p {
     padding: 1rem;
     border: 5px solid white;
     margin-bottom: 2.5rem;
-    border-radius: 5px;
+    border-radius: 10px;
 
 }
 
@@ -145,12 +145,12 @@ button:hover {
 
 
 
-
 @media screen and (min-width:768px) {
     
     .questions {
         display: grid;
         grid-template-columns: 1fr 1fr 0.7fr;
+        margin-top: -20rem;
        
 
         grid-template-areas:
