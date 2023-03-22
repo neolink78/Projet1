@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color:#DFC95A;
+    background-color:var(--secondary-color);
 }
 
 header {
@@ -42,7 +42,9 @@ h1 {
     width: 30%;
     border-radius: 50%;
 }
-
+.grilleDesLots{
+    margin:0.5rem 1rem;
+}
 .Lot {
     align-items: center;
     justify-content: center;
@@ -62,12 +64,19 @@ h2 {
     display: flex;
     justify-content: space-around;
     text-align: center;
+   
 
 }
 .images_lots img {
-    width: 50%;
+    width: 30%;
     height: auto;
     margin: 0 auto;
+    padding-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
     padding-bottom: 10px;
 }
 
@@ -93,7 +102,7 @@ ul {
     color: white;
     margin: 3rem;
     background-color: var(--primary-color);
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-right: 1rem;
     margin-left: 1rem;
     padding: 1rem;
@@ -139,6 +148,59 @@ input:hover {
     color: white;
     border-radius: 10px;
 }
+.image4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:0 1rem;
+}
+.image5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:0 1rem;
+}
+.image6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:0 1rem;
+}
+.image7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:0 1rem;
+}
+.image8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:0 1rem;
+}
+.image4 img {
+    width: 30%;
+    height: 10rem;
+}
+
+.image5 img {
+    width: 30%;
+    height: 10rem
+}
+.image6 img {
+    width: 30%;
+    height: 10rem;
+}
+
+.image7 img {
+    width: 30%;
+    height: 10rem;;
+}
+
+.image8 img {
+    width: 30%;
+    height: 10rem;
+}
 
 footer {
     background-color: var(--primary-color);
@@ -168,6 +230,9 @@ button {
 
 button:hover {
     background-color: green;
+}
+.validation{
+    margin-top: 3rem;
 }
 
 
@@ -249,7 +314,7 @@ button:hover {
 
 
         grid-template-areas:
-            "question1 question2 ."
+            "question1 question2 image4"
             "question3 question4 image5"
             "question5 question6 image6"
             "question7 question8 image7"
@@ -319,13 +384,16 @@ button:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center ;
-        width: 100%;
+        width: 30%;
         height: 100%;  
+        margin-top: 3rem;
+        
     }
 
     .image5 img {
         width: 100%; 
-         height: auto;
+         height: 100%;
+         padding-bottom: 1rem;
      }
 
 
@@ -342,6 +410,7 @@ button:hover {
     .image6 img {
         width: 100%; 
          height: auto;
+         padding-bottom: 1rem;
      }
 
 
@@ -368,13 +437,14 @@ button:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center ;
-        width: 100%;
+        width: 40%;
         height: 100%;
    
     }
     .image8 img {
-        width: 100%; 
-         height: auto;
+        width:80%; 
+         height: 30%;
+         padding-bottom: 1rem;
      }
 
 
