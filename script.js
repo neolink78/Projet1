@@ -2,7 +2,7 @@ function dependingQuery (nber) {
     console.log(nber);
     switch(nber) {
         case 1:
-            return "Tas compris le but d'un quiz ? Une seule bonne réponse !";
+            return "T'as compris le but d'un quiz ? Une seule bonne réponse !";
         case 2:
             return "Va falloir faire un test de QI, 2 bonnes réponses !";
         case 3:
@@ -22,7 +22,7 @@ function dependingQuery (nber) {
         case 10:
             return "Sans fautes, GG ! 10 bonnes réponses !";
         default:
-            return "Tas répondu à rien..";
+            return "T'as répondu à rien..";
     }
 }
 
@@ -45,7 +45,7 @@ function compare(arr) {
             result++;
         }
     }
-    properColor1(answersUser);
+    
     return result;
 }
 
