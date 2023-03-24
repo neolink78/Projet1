@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <title>Quiz</title>
 
 </head>
@@ -17,196 +20,219 @@
             <img class="logo" src="images/logo.png" alt="logo: pigeon posé sur des pieces en or">
         </header>
 
-
         <div class="Lot">
             <h2>Liste des lots a gagner</h2>
             <div class="images_lots">
-                <img src="images/bateau.jpg" alt="bateau de croisière " , width="100" height="100">
-                <img src="images/baguette_magique.jpg" alt="baguette magique en bois" , width="100" height="100">
-                <img src="images/dictionnaire.jpg" alt="dictionnaire ouvert" , width="100" height="100">
+                <img class="bateau" src="images/bateau.jpg" alt="bateau de croisière ">
+                <img class="baguette" src="images/baguette_magique.jpg" alt="baguette magique en bois">
+                <img class="dico" src="images/dictionnaire.jpg" alt="dictionnaire ouvert">
 
             </div>
             <ul>
-                <li>Lot 1 : Croisiere au tour du monde pendant 30 jours</li>
-                <li>Lot 2 : La baguette d'Harry le potier</li>
-                <li>Lot 3 : Dictionnaire "Lamousse"</li>
+                <p class="gain">En répondant juste aux questions du quiz, gagnez un de ces magnifique lot:</p>
+                <li>Lot 1 : Croisiere autour du monde pendant 3 jours = 11 questions de juste</li>
+                <li>Lot 2 : La baguette d'Harry le potier = 10 question de juste</li>
+                <li>Lot 3 : Dictionnaire "Lamousse" = 9 questions de juste</li>
             </ul>
         </div>
     </div>
 
-    <main>        
+    <main>
         <form class="questions">
 
             <div class="question1 quiz">
                 <h3>1 - Combien de temps a duré la guerre de cent ans ?</h3>
                 <ul>
-                    <li> <input type="radio" id="qcm1" name="q1" value="a" checked> reponse1</li>
-                    <li> <input type="radio" id="qcm2" name="q1" value="b"> reponse2</li>
-                    <li> <input type="radio" id="qcm3" name="q1" value="c"> reponse3</li>
-                    <li> <input type="radio" id="qcm4" name="q1" value="d"> reponse4</li>
+                    <li> <input type="radio" id="qcm1" name="q1" value="a" checked> 116 ans</li>
+                    <li> <input type="radio" id="qcm2" name="q1" value="b"> 106 ans</li>
+                    <li> <input type="radio" id="qcm3" name="q1" value="c"> 100 ans</li>
+                    <li> <input type="radio" id="qcm4" name="q1" value="d"> 96 ans</li>
 
                 </ul>
+            </div>
+            <div class="image4">
+                <img class="pub10" src="images/pub1.jpg" alt="or">
+                <img class="pub11" src="images/pub2.webp" alt="cafe">
+                <img class="pub12" src="images/pub3.jpg" alt="coca">
+    
             </div>
 
 
             <div class="question2 quiz">
                 <h3>2 - De quel pays provienent les groseilles chinoises ?</h3>
                 <ul>
-                    <li> <input type="radio" id="qcm5" name="q2" value="a" checked> reponse1</li>
-                    <li><input type="radio" id="qcm6" name="q2" value="b"> reponse2</li>
-                    <li><input type="radio" id="qcm7" name="q2" value="c"> reponse3</li>
-                    <li><input type="radio" id="qcm8" name="q2" value="d"> reponse4</li>
+                    <li> <input type="radio" id="qcm5" name="q2" value="a" checked> Azerbaïdjan</li>
+                    <li><input type="radio" id="qcm6" name="q2" value="b"> Chine</li>
+                    <li><input type="radio" id="qcm7" name="q2" value="c"> Nouvelle-Zelande</li>
+                    <li><input type="radio" id="qcm8" name="q2" value="d"> Phillipines</li>
                 </ul>
+            </div>
+            <div class="image5">
+                <img class="pub13" src="images/oasis.jpg" alt="oasis">
+                <img class="pub14" src="images/pub4.jpg" alt="renault">
+                <img class="pub15" src="images/pub5.jpg" alt="montre">
             </div>
             <div class="question3 quiz">
-                <h3>Question 3</h3>
+                <h3>3 - Quelle langue Harry sait-il parler autre que l'anglais ?</h3>
                 <ul>
-                    <li> <input type="radio" id="qcm5" name="q3" value="a" checked> reponse1</li>
-                    <li><input type="radio" id="qcm6" name="q3" value="b"> reponse2</li>
-                    <li><input type="radio" id="qcm7" name="q3" value="c"> reponse3</li>
-                    <li><input type="radio" id="qcm8" name="q3" value="d"> reponse4</li>
+                    <li> <input type="radio" id="qcm9" name="q3" value="a" checked> Le français</li>
+                    <li><input type="radio" id="qcm10" name="q3" value="b"> Le dothraki</li>
+                    <li><input type="radio" id="qcm11" name="q3" value="c"> Le fourchelang</li>
+                    <li><input type="radio" id="qcm12" name="q3" value="d"> Le marseillais</li>
                 </ul>
             </div>
-             <div class="question4 quiz">
-                <h3>Question 4</h3>
+            <div class="image6">
+                <img class="pub16" src="images/pub6.jpg" alt="christmas">
+                <img class="pub17" src="images/pub2.webp"  alt="cafe">
+                <img class="pub18" src="images/pub3.jpg" alt="coca">
+            </div>
+            <div class="question4 quiz">
+                <h3>4 - Quelle est la plus grande peur de Rémus Lupin ?</h3>
                 <ul>
-                    <li> <input type="radio" id="qcm5" name="q4" value="a" checked> reponse1</li>
-                    <li><input type="radio" id="qcm6" name="q4" value="b"> reponse2</li>
-                    <li><input type="radio" id="qcm7" name="q4" value="c"> reponse3</li>
-                    <li><input type="radio" id="qcm8" name="q4" value="d"> reponse4</li>
+                    <li> <input type="radio" id="qcm13" name="q4" value="a" checked> Que Harry Potter soit blessé</li>
+                    <li><input type="radio" id="qcm14" name="q4" value="b"> Le DOM</li>
+                    <li><input type="radio" id="qcm15" name="q4" value="c"> Les araignées</li>
+                    <li><input type="radio" id="qcm16" name="q4" value="d"> La pleine lune</li>
                 </ul>
+            </div>
+            <div class="image7">
+                <img class="pub19" src="images/pub1.jpg" alt="or"> 
+                <img class="pub20" src="images/pub3.jpg" alt="coca">
+                <img class="pub21" src="images/oasis.jpg" alt="oasis">
             </div>
             <div class="question5 quiz">
-                <h3>Question 5</h3>
+                <h3>5 - De quelle couleur sont les cheveux d'Anthony ?</h3>
                 <ul>
-                    <li> <input type="radio" id="qcm5" name="q5" value="a" checked> reponse1</li>
-                    <li><input type="radio" id="qcm6" name="q5" value="b"> reponse2</li>
-                    <li><input type="radio" id="qcm7" name="q5" value="c"> reponse3</li>
-                    <li><input type="radio" id="qcm8" name="q5" value="d"> reponse4</li>
+                    <li> <input type="radio" id="qcm17" name="q5" value="a" checked> Blond</li>
+                    <li><input type="radio" id="qcm18" name="q5" value="b"> Dieu seul le sait</li>
+                    <li><input type="radio" id="qcm19" name="q5" value="c"> Roux</li>
+                    <li><input type="radio" id="qcm20" name="q5" value="d"> Brun</li>
                 </ul>
+            </div>
+            <div class="image8">
+                <img class="pub22" src="images/pub4.jpg" alt="renault">
+                <img class="pub23" src="images/pub9.jpg" alt="harry potter">
+                <img class="pub24" src="images/pub5.jpg" alt="montre">
             </div>
             <div class="question6 quiz">
-                <h3>Question 6</h3>
+                <h3>6 - Quelle est la boisson préférée d'Harry Potter ?</h3>
                 <ul>
-                    <li> <input type="radio" id="qcm5" name="q6" value="a" checked> reponse1</li>
-                    <li><input type="radio" id="qcm6" name="q6" value="b"> reponse2</li>
-                    <li><input type="radio" id="qcm7" name="q6" value="c"> reponse3</li>
-                    <li><input type="radio" id="qcm8" name="q6" value="d"> reponse4</li>
+                    <li> <input type="radio" id="qcm21" name="q6" value="a" checked> Le jus de citrouille</li>
+                    <li><input type="radio" id="qcm22" name="q6" value="b"> La Bierraubeurre</li>
+                    <li><input type="radio" id="qcm23" name="q6" value="c"> Le Pastis 51</li>
+                    <li><input type="radio" id="qcm24" name="q6" value="d"> L'hydromel aux épices</li>
                 </ul>
+            </div>
+            <div class="image4">
+                <img class="pub10" src="images/pub1.jpg" alt="or">
+                <img class="pub11" src="images/pub2.webp" alt="cafe">
+                <img class="pub12" src="images/pub3.jpg" alt="coca">
+    
             </div>
             <div class="question7 quiz">
-                <h3>Question 7</h3>
+                <h3>7 - Quelle est la date d'anniversaire d'Harry Potter ?</h3>
                 <ul>
-                    <li> <input type="radio" id="qcm5" name="q7" value="a" checked> reponse1</li>
-                    <li><input type="radio" id="qcm6" name="q7" value="b"> reponse2</li>
-                    <li><input type="radio" id="qcm7" name="q7" value="c"> reponse3</li>
-                    <li><input type="radio" id="qcm8" name="q7" value="d"> reponse4</li>
+                    <li> <input type="radio" id="qcm25" name="q7" value="a" checked> 1 Avril</li>
+                    <li><input type="radio" id="qcm26" name="q7" value="b"> 31 Février</li>
+                    <li><input type="radio" id="qcm27" name="q7" value="c"> 31 Juillet</li>
+                    <li><input type="radio" id="qcm28" name="q7" value="d"> 31 Janvier</li>
                 </ul>
             </div>
-           <div class="question8 quiz">
-                <h3>Question 8</h3>
+            <div class="image5">
+                <img class="pub13" src="images/oasis.jpg" alt="oasis">
+                <img class="pub14" src="images/pub4.jpg" alt="renault">
+                <img class="pub15" src="images/pub5.jpg" alt="montre">
+            </div>
+            <div class="question8 quiz">
+                <h3>8 - A quelle maison appartient le sorcier Gorski ? </h3>
                 <ul>
-                    <li> <input type="radio" id="qcm5" name="q8" value="a" checked> reponse1</li>
-                    <li><input type="radio" id="qcm6" name="q8" value="b"> reponse2</li>
-                    <li><input type="radio" id="qcm7" name="q8" value="c"> reponse3</li>
-                    <li><input type="radio" id="qcm8" name="q8" value="d"> reponse4</li>
+                    <li> <input type="radio" id="qcm29" name="q8" value="a" checked> Gryffondor</li>
+                    <li><input type="radio" id="qcm30" name="q8" value="b"> Serpentard</li>
+                    <li><input type="radio" id="qcm31" name="q8" value="c"> Poufsouffle</li>
+                    <li><input type="radio" id="qcm32" name="q8" value="d"> Maison Dursley</li>
 
                 </ul>
+            </div>
+            <div class="image6">
+                <img class="pub16" src="images/pub6.jpg" alt="christmas">
+                <img class="pub17" src="images/pub2.webp"  alt="cafe">
+                <img class="pub18" src="images/pub3.jpg" alt="coca">
             </div>
             <div class="question9 quiz">
-                <h3>Question 9</h3>
+                <h3>9 - Où a été crée la Wild Code School ? </h3>
                 <ul>
-                    <li> <input type="radio" id="qcm5" name="q9" value="a" checked> reponse1</li>
-                    <li><input type="radio" id="qcm6" name="q9" value="b"> reponse2</li>
-                    <li><input type="radio" id="qcm7" name="q9" value="c"> reponse3</li>
-                    <li><input type="radio" id="qcm8" name="q9" value="d"> reponse4</li>
+                    <li> <input type="radio" id="qcm33" name="q9" value="a" checked> Asasp-Arros</li>
+                    <li><input type="radio" id="qcm34" name="q9" value="b"> Sevran</li>
+                    <li><input type="radio" id="qcm35" name="q9" value="c"> La Loupe</li>
+                    <li><input type="radio" id="qcm36" name="q9" value="d"> Nouillorc</li>
                 </ul>
             </div>
-           <div class="question10 quiz">
-                <h3>10 - A quelle maison appartient le sorcier Gorski ? </h3>
+            <div class="image7">
+                <img class="pub19" src="images/pub1.jpg" alt="or"> 
+                <img class="pub20" src="images/pub3.jpg" alt="coca">
+                <img class="pub21" src="images/oasis.jpg" alt="oasis">
+            </div>
+            <div class="question10 quiz">
+                <h3>10 - Que diriez vous de ce quiz ?  </h3>
                 <ul>
-                    <li> <input type="radio" id="qcm5" name="q10" value="a" checked> Gryffondor</li>
-                    <li><input type="radio" id="qcm6" name="q10" value="b"> Serpentard</li>
-                    <li><input type="radio" id="qcm7" name="q10" value="c"> Poufsouffle</li>
-                    <li><input type="radio" id="qcm8" name="q10" value="d"> Maison Dursley</li>
+                    <li> <input type="radio" id="qc37" name="q10" value="a" checked> Le design est incroybale</li>
+                    <li><input type="radio" id="qcm38" name="q10" value="b"> Je n'ai jamais vu un site aussi bien conçu</li>
+                    <li><input type="radio" id="qcm39" name="q10" value="c"> Le travail de conception doit etre titanesque</li>
+                    <li><input type="radio" id="qcm40" name="q10" value="d"> Les 3 premières réponses sont juste</li>
                 </ul>
             </div>
-            
-    
+            <div class="image8">
+                <img class="pub22" src="images/pub4.jpg" alt="renault">
+                <img class="pub23" src="images/pub9.jpg" alt="harry potter">
+                <img class="pub24" src="images/pub5.jpg" alt="montre">
+            </div>
 
 
-            <img src="images/pub1.jpg" alt="publicité rachat or" , width="100" height="100">
         </div>
-        <div class="image 2">
-            <img src="images/bateau.jpg" alt="croisiere bateau" , width="100" height="100">
-
-        </div>
-        <div class="image 3">
-            <img src="images/jet prive.jpg" alt="jet prive" , width="100" height="100">
-
-        </div>
-        <div class="image4">
-            <img class="pub10" src="" alt="">
-            <img class="pub11" src="" alt="">
-            <img class="pub12" src="" alt="">
-        </div>
-        <div class="image5">
-            <img class="pub13" src="" alt="">
-            <img class="pub14" src="" alt="">
-            <img class="pub15" src="" alt="">
-        </div>
-        <div class="image6">
-            <img class="pub16" src="" alt="">
-            <img class="pub17" src="" alt="">
-            <img class="pub18" src="" alt="">
-        </div>
-        <div class="image7">
-            <img class="pub19" src="" alt="">
-            <img class="pub20" src="" alt="">
-            <img class="pub21" src="" alt="">
-        </div>
-        <div class="image8">
-            <img class="pub22" src="" alt="">
-            <img class="pub23" src="" alt="">
-            <img class="pub24" src="" alt="">
-        </div>
-        <div class="image9">
-            <img class="pub25" src="" alt="">
-            <img class="pub26" src="" alt="">
-            <img class="pub27" src="" alt="">
-        </div>
-        <div class="image10">
-            <img class="pub28" src="" alt="">
-            <img class="pub29" src="" alt="">
-            <img class="pub30" src="" alt="">
-        </div>
+        
+       
     </div>
 
     </main>
 
     <div class="validation">
-        <button type = "submit">Valider
+        <button type="submit">Valider
         </button>
         <div class="result">
             <h4>Résultat</h4>
         </div>
     </div>
-</form>
+    </form>
 
-<footer>
-    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.
-    </div>
+    <footer>
+        <div>订立合同的权利：公司拥有与其他实体（包括其他公司、个人和政府机构）订立合同和协议的合法权利。
 
-</footer>
+            财产所有权：公司拥有财产的权利，包括不动产、设备以及专利、商标和版权等知识产权。
+            
+            有限责任权：组建公司的主要好处之一是它为其所有者提供有限责任。这意味着所有者通常不对公司的债务或法律义务承担个人责任。
+            
+            起诉和被起诉的权利：公司有在法庭上起诉和被起诉的合法权利。
+            
+            发行股票的权利：公司有权发行和出售股票以筹集资金。订立合同的权利：公司拥有与其他实体（包括其他公司、个人和政府机构）订立合同和协议的合法权利。
+
+            财产所有权：公司拥有财产的权利，包括不动产、设备以及专利、商标和版权等知识产权。
+            
+            有限责任权：组建公司的主要好处之一是它为其所有者提供有限责任。这意味着所有者通常不对公司的债务或法律义务承担个人责任。
+            
+            起诉和被起诉的权利：公司有在法庭上起诉和被起诉的合法权利。
+            
+            发行股票的权利：公司有权发行和出售股票以筹集资金。订立合同的权利：公司拥有与其他实体（包括其他公司、个人和政府机构）订立合同和协议的合法权利。
+
+            财产所有权：公司拥有财产的权利，包括不动产、设备以及专利、商标和版权等知识产权。
+            
+            有限责任权：组建公司的主要好处之一是它为其所有者提供有限责任。这意味着所有者通常不对公司的债务或法律义务承担个人责任。
+            
+            起诉和被起诉的权利：公司有在法庭上起诉和被起诉的合法权利。
+            
+            发行股票的权利：公司有权发行和出售股票以筹集资金。
+        </div>
+
+    </footer>
     <script src="script.js"></script>
 </body>
 

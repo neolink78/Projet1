@@ -32,7 +32,7 @@ function dependingQuery (nber) {
 // c => reponse3
 // d => reponse4
 
-const goodAnswers = ['a', 'b', 'c', 'd', 'b', 'b', 'c', 'b', 'c', 'd' ];
+const goodAnswers = ['a', 'c', 'c', 'd', 'b', 'b', 'c', 'd', 'c', 'd' ];
 let answersUser = [];
 const form = document.querySelector('.questions');
 const writtenAnswer = document.querySelector('h4');
@@ -67,11 +67,3 @@ form.addEventListener("submit", function (e) {
         // permet de vider le tableau des réponses de l'utilisateur
         answersUser = [];
 });
-
-function properColor1(param) {
-    for (let i = 0; i < goodAnswers.length; i++) {
-        if (param[i] === goodAnswers[i]) {
-            properColor[i].style.color = 'green';
-        }
-    }
-}
