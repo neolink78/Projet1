@@ -2,27 +2,27 @@ function dependingQuery (nber) {
     console.log(nber);
     switch(nber) {
         case 1:
-            return "T'es nul";
+            return "Tas compris le but d'un quiz ? Une seule bonne réponse !";
         case 2:
-            return "T'es ok";
+            return "Va falloir faire un test de QI, 2 bonnes réponses !";
         case 3:
-            return "T'es bon";
+            return "Peut mieux faire, 3 bonnes réponses !";
         case 4:
-            return "T'es tro";
+            return "C'est pas ouf, 4 bonnes réponses !";
         case 5:
-            return "T'es tro fort";
+            return "Passable, 5 bonnes réponses ..";
         case 6:
-            return "T'es ki";
+            return "Qui l'aurait cru ? 6 bonnes réponses !";
         case 7:
-            return "T'es pas mal";
+            return "On y arrive ! 7 bonnes réponses !";
         case 8:
-            return "T'es trop bon";
+            return "T'es vraiment pas loin, 8 bonnes réponses !";
         case 9:
-            return "T'es une machine";
+            return "T'es une machine, 9 bonnes réponses !";
         case 10:
-            return "LVL G.OD";
+            return "Sans fautes, GG ! 10 bonnes réponses !";
         default:
-            return "aucune question enregistrée";
+            return "Tas répondu à rien..";
     }
 }
 
@@ -32,11 +32,11 @@ function dependingQuery (nber) {
 // c => reponse3
 // d => reponse4
 
-const goodAnswers = ['a', 'b', 'c', 'd', 'b', 'b', 'c', 'b', 'c', 'd' ];
+const goodAnswers = ['a', 'c', 'c', 'd', 'b', 'b', 'c', 'd', 'c', 'd' ];
 let answersUser = [];
 const form = document.querySelector('.questions');
 const writtenAnswer = document.querySelector('h4');
-
+const properColor = document.querySelectorAll('li');
 // Cette fonction reçois les réponses du user que l'on compare avec le tableau des bonnes réponses.
 function compare(arr) {
     let result = 0
@@ -45,6 +45,7 @@ function compare(arr) {
             result++;
         }
     }
+    properColor1(answersUser);
     return result;
 }
 
@@ -66,5 +67,3 @@ form.addEventListener("submit", function (e) {
         // permet de vider le tableau des réponses de l'utilisateur
         answersUser = [];
 });
-
-
